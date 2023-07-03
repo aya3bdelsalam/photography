@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(238, 238, 238);
+}
+.home{
+    width:70%;
+    height: 100vh;
+    margin:auto;
+    background-color: white;
+    display:flex;
+    align-items: center;
+}
+.home-text{
+    width: 40%;
+    text-align: center;
+}
+.home-text h1{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.home-text h2{
+    font-size: 19px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: rgb(136, 136, 136);
+}
+.home-img{
+    width:60%;
+}
+.home-img img{
+    width:100%;
+    height:100%;
+}
+button{
+    padding: 15px 30px;
+    margin-top: 30px ;
+    border:1px solid rgb(204, 204, 204);
+    border-radius: 30px;
+    background-color: white;
+    font-size: 16px;
+}
+button:hover{
+    background-color: rgb(244, 244, 244);
+}
+.images{
+    width:70%;
+    margin: auto;
+    text-align: center;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+.work{
+    padding: 22px;
+    background-color: rgb(51, 51, 51);
+}
+.work h2{
+    color:white;
+    border-left: 1px dotted white;
+    border-right: 1px dotted white;
+    padding: 0px 16px;
+    display: inline;
+}
+.caption{
+    padding: 30px 0px;
+}
+.caption p{
+    padding-top: 10px;
+}
+.images img{
+    width: 100%;
+}
+.footer {
+    text-align: center;
+    padding: 30px 15px;
+    color: rgb(51, 51, 51);
+}
+.footer h3 {
+    font-size: 45px;
+}
+.footer p a {
+    text-decoration: none;
+    color: red;
+}
+@media (max-width:900px){
+    .home, .images{
+        width:100%;
+    }
+    .home .home-text{
+        width: 60%;
+    }
+}
